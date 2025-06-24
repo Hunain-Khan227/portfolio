@@ -1,0 +1,221 @@
+
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #041327;
+  color: white; 
+  padding: 0 60px;
+  
+}
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  background-color: #000000;
+  height: 91px;
+  width: 80rem;
+ 
+  
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Navigation Links */
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  padding-bottom: 5px;
+  
+}
+
+/* White underline under HOME */
+nav a.active::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: white;
+}
+
+
+
+.badge1{
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 15px;
+  display: inline-block;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.subheading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.subheading span {
+  color: #007aff; /* Blue like in the reference image */
+}
+
+.description {
+  font-size: 1.2rem;         /* Increased font size */
+  line-height: 1.6;
+  max-width: 500px;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 600;          /* Made it bold */
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Push image to the right */
+   
+}
+
+.hero-image img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px; /* Optional: for rounded corners */
+ 
+}
+.hero-image {
+  background-image: transparent;
+}
+button{
+  background-color:#007aff;
+  border-radius:89px;
+  height: 58px;
+  width: 156px;
+  margin-bottom: 190px; 
+  font-size:12px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 67px;
+  margin-right: 89px;
+}
+ button:hover {
+  background-color:#000000;
+  transition:0.4s ease;
+  border: 3px solid white;
+  
+}
+li{
+  margin-top: 56px;
+}
+
+    .highlight {
+      color: #007bff;
+    }
+
+    p {
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .social-icons {
+      margin-top: 15px;
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-icons a {
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+   .div{
+   background-color:#0066;
+   border-radius:0px;
+   border: none;
+    height: 0%;
+   width: 0%;
+   gap:190px;
+  display: flex;
+  outline: none;
+  height: 69px;
+  width:80rem;
+   }
+   h1{
+    margin-right: 200px;
+   }
+   span{
+    color: #007aff; /* Blue like in the reference image */
+    
+   }
+   .badge{
+     color:white;
+     background-color:darkblue;
+     margin-left: 660px;
+   }
+   p{
+    color:white
+   }
+   .div1{
+    margin-left:660px;
+   }
